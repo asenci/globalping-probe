@@ -3,8 +3,7 @@
 update-ca-certificates
 
 function run_probe() {
-	node /app/dist/index.js
-	return
+	exec node /app/dist/index.js
 }
 
 function try_update() {
